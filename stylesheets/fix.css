@@ -1,0 +1,33 @@
+body{
+/*	background: url('../images/bg.jpg')  ;*/
+}
+.container{
+	margin-top:20px;
+}
+.container nav a{
+	display:block;
+	margin-bottom:10px;
+	
+}
+hr{
+	height:10px;
+	margin-left:0;
+	padding-left:0;
+	border:none;
+	background: url('../images/seoBackground.png') repeat-x -20px 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.container nav{
+		margin-bottom:20px;
+	}
+	.container nav a{
+		display:inline;
+		margin-left:18px;
+	}
+	.container nav a span{
+		display:none;
+	}
+	
+}
