@@ -44,12 +44,23 @@ hr{
 	.container nav a span{
 		display:none;
 	}
-	
+
 	.container div#content ul{
 		margin-bottom:40px;
 	}
-
 	
+	.container div#content ul li.omit{
+		display:none;
+	}
+	
+	h4{
+		border-bottom:1.5px solid black;
+	}
+	h2{
+		color:#000;
+	}
+	
+		
 	.container nav li a, .container div#content ul li a{
 		background: #eee; /* Old browsers */
 		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
@@ -61,23 +72,18 @@ hr{
 	  border: 1px solid #aaa;
 	  border-top: 1px solid #ccc;
 	  border-left: 1px solid #ccc;
-	  padding: 4px 12px;
+	  padding: 7px 12px;
 	  -moz-border-radius: 5px;
 	  -webkit-border-radius: 5px;
 	  border-radius: 5px;
 	  color: #444;
 	  display: block;
-	  font-size: 11px;
+	  font-size: 12px;
 	  font-weight: normal;
 	  text-decoration: none;
 	  text-shadow: 0 1px rgba(255, 255, 255, .75);
 	  line-height: 21px;
 	}
 	
-	h4{
-		border-bottom:1.5px solid black;
-	}
-	h2{
-		color:#000;
-	}
+
 }
