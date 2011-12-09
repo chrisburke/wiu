@@ -24,7 +24,6 @@ org.eclipse.*
 # media assets
 *.mp3
 *.mp4
-*.zip
 *.wav
 *.ogg
 *.mov
